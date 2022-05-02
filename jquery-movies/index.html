@@ -16,7 +16,7 @@
     <div class="header">
         <h1>Movie Ratings!</h1>
 
-        <form class="form" id="new-movies">
+        <form class="movForm" id="new-movies">
             <div class="inputs">
                 <label for="title">Title</label>
                 <input type="text" id="title">
@@ -35,9 +35,18 @@
 
     <br>
 
-    <div class="movie-list">
+    <table class="movieTable">
+        <thead class="tableHead">
+            <tr>
+                <th scope="col" class="clickSort down">Title</th>
+                <th scope="col" class="clickSort down">Rating</th>
+                <th scope="col">Delete</th>
+            </tr>
+        </thead>
+        <tbody id="tableBody">
 
-    </div>
+        </tbody>
+    </table>
 
     <script src="https://code.jquery.com/jquery-3.6.0.js"
         integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>

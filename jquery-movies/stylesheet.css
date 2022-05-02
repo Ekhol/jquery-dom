@@ -6,19 +6,19 @@
     text-align: center;
 }
 
-.form {
+.movForm {
     display: flex;
     flex-flow: row wrap;
     align-items: center;
     justify-content: center;
 }
 
-.form label {
+.movForm label {
     font-weight: bold;
     margin: 5px 10px 5px 0;
 }
 
-.form input {
+.movForm input {
     vertical-align: middle;
     margin: 5px 10px 5px 0;
     padding: 10px;
@@ -27,7 +27,7 @@
     border-radius: 5px;
 }
 
-.form button {
+.movForm button {
     padding: 10px 20px;
     background-color: blanchedalmond;
     border: 1px solid brown;
@@ -35,4 +35,29 @@
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
     border-radius: 5px;
+}
+
+.movieTable {
+    width: 100%;
+    column-width: auto;
+    background-color: blanchedAlmond;
+    border: 1px solid brown;
+    border-radius: 5px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+}
+
+td {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btn.delete {
+    font-family: 'Raleway', sans-serif;
+    background-color: brown;
+    color: blanchedalmond;
+    border: 1px solid brown;
+    border-radius: 5px;
+    padding: 10px 20px;
 }
