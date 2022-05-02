@@ -1,0 +1,38 @@
+.header {
+    font-family: 'Raleway', sans-serif
+}
+
+.header h1 {
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.form label {
+    font-weight: bold;
+    margin: 5px 10px 5px 0;
+}
+
+.form input {
+    vertical-align: middle;
+    margin: 5px 10px 5px 0;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid brown;
+    border-radius: 5px;
+}
+
+.form button {
+    padding: 10px 20px;
+    background-color: blanchedalmond;
+    border: 1px solid brown;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    border-radius: 5px;
+}
